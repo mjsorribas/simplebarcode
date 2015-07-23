@@ -22,10 +22,56 @@ begin
   generarCodigo:=aux;
 end;
 
-//function obtenerDigitoVerificador(numero):integer;
-//begin
+//funcion para calculoDigitoControlEAN (numero):integer;
+function obtenerDigitoVerificador (Ean: String): Integer; overload;
+//Calcula y devuelve el dígito verificador de una cadena de código de barras EAN13
+//o EAN8 .Devcuelve -1 en caso de ser incorrecto.
+var
+  SP, SI, I, L:Integer;
+  Impar: Boolean;
+begin
+  L := Length(Ean);
+  if (L = 8) or (L = 13) then
+  begin
+    SI := 0;
+    SP := 0;
+    I := L - 1;
+    Impar := True;
+    repeat
+      if Impar then
+        SI := SI + StrToInt(Ean[I])
+      else
+        SP := SP + StrToInt(Ean[I]);
+      Impar := not Impar;
+      I := I - 1;
+    until I =0;
+    if Impar then
+      SI := SI*3
+    else
+     SP := SP*3;
+    Result := 10-(SI+SP) mod 10;
+  end
+  else
+    Result:= -1;
+end;
 
-//end;
+function obtenerFecha():String;
+var YY,MM,DD : Word;
+     formateado : string;
+begin
+   DeCodeDate (Date,YY,MM,DD);
+   formateado := (format('%d%d%d',[dd,mm,yy]));
+   //agrego las condiciones para evitar que la fecha tenga menos digitos y le
+   //agrego un 0 extra para validar los 13 de ean 13
+   if (length(formateado)= 8) then
+             formateado:= Concat(formateado,'0');
+   if (length(formateado)= 7) then
+             formateado:= Concat(formateado,'00');
+   if (length(formateado)= 6) then
+             formateado:= Concat(formateado,'000');
+
+   obtenerFecha:=  formateado;
+end;
 //Procedimiento para Obtener el Codigo de Barras
 procedure obtenerCodigo();
 var
@@ -35,6 +81,7 @@ var
    codigo: String;
    fecha:string;
    aux:string;
+   dverif: integer;
 
           begin
                nbin:='';
@@ -42,10 +89,13 @@ var
                writeln('Ingrese el N. de Legajo');
                readln(ndec);
                // Bucle principal
-               //fecha:= DateToStr(Date);
-               //aux:=Concat(IntToStr(ndec), fecha , '0');
-               //writeln(aux);
-               //ndec:=StrToInt(aux);
+               fecha:=obtenerFecha();
+               writeln('Fecha:',fecha);
+               aux:=Concat(IntToStr(ndec), fecha );
+               writeln(aux);
+               dverif:= obtenerDigitoVerificador(aux);
+               aux:=Concat(aux, IntToStr(dverif));
+               ndec:=StrToInt(aux);
                repeat
                      begin
                           if ndec mod 2 = 0 then
