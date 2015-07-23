@@ -34,7 +34,6 @@
       <Unit0>
         <Filename Value="simplebarcode.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="simplebarcode"/>
       </Unit0>
     </Units>
   </ProjectOptions>

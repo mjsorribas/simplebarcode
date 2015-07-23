@@ -7,135 +7,151 @@
       <Unit0>
         <Filename Value="simplebarcode.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="simplebarcode"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="28"/>
-        <CursorPos X="12" Y="35"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="21"/>
+        <CursorPos X="3" Y="28"/>
+        <UsageCount Value="44"/>
         <Loaded Value="True"/>
       </Unit0>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="6" Column="7"/>
+        <Caret Line="51" Column="25" TopLine="28"/>
       </Position1>
       <Position2>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="2" Column="10"/>
+        <Caret Line="6" Column="41"/>
       </Position2>
       <Position3>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="17" Column="19"/>
+        <Caret Line="4" Column="18"/>
       </Position3>
       <Position4>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="18" Column="22"/>
+        <Caret Line="78" Column="16" TopLine="54"/>
       </Position4>
       <Position5>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="17" Column="44" TopLine="2"/>
+        <Caret Line="8"/>
       </Position5>
       <Position6>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="21" Column="21" TopLine="2"/>
+        <Caret Line="30" Column="26" TopLine="18"/>
       </Position6>
       <Position7>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="28" Column="14" TopLine="7"/>
+        <Caret Line="34" Column="16" TopLine="22"/>
       </Position7>
       <Position8>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="26" Column="23" TopLine="7"/>
+        <Caret Line="26" Column="44" TopLine="17"/>
       </Position8>
       <Position9>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="24" Column="22" TopLine="8"/>
+        <Caret Line="25" Column="36" TopLine="18"/>
       </Position9>
       <Position10>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="30" Column="35" TopLine="8"/>
+        <Caret Line="33" Column="27" TopLine="22"/>
       </Position10>
       <Position11>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="39" Column="19" TopLine="14"/>
+        <Caret Line="57" Column="24" TopLine="46"/>
       </Position11>
       <Position12>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="32" Column="22" TopLine="14"/>
+        <Caret Line="61" Column="19" TopLine="49"/>
       </Position12>
       <Position13>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="11" Column="12"/>
+        <Caret Line="25" Column="25" TopLine="22"/>
       </Position13>
       <Position14>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="27" Column="29" TopLine="9"/>
+        <Caret Line="72" Column="42" TopLine="55"/>
       </Position14>
       <Position15>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="12" Column="8" TopLine="4"/>
+        <Caret Line="39" Column="30" TopLine="17"/>
       </Position15>
       <Position16>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="42" Column="38" TopLine="16"/>
+        <Caret Line="3" Column="2"/>
       </Position16>
       <Position17>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="34" Column="27" TopLine="17"/>
+        <Caret Line="2" Column="10"/>
       </Position17>
       <Position18>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="8" Column="7"/>
+        <Caret Line="37" Column="16" TopLine="25"/>
       </Position18>
       <Position19>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="44" Column="12" TopLine="17"/>
+        <Caret Line="32" Column="4" TopLine="25"/>
       </Position19>
       <Position20>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="16" Column="22" TopLine="5"/>
+        <Caret Column="28"/>
       </Position20>
       <Position21>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="29" Column="12" TopLine="10"/>
+        <Caret Line="39" Column="27" TopLine="28"/>
       </Position21>
       <Position22>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="49" Column="22" TopLine="26"/>
+        <Caret Line="40" Column="24" TopLine="25"/>
       </Position22>
       <Position23>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="25" Column="16" TopLine="5"/>
+        <Caret Line="5" Column="10"/>
       </Position23>
       <Position24>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="9" Column="30"/>
       </Position24>
       <Position25>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="7" Column="18"/>
+        <Caret Line="3"/>
       </Position25>
       <Position26>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="49" Column="32" TopLine="26"/>
+        <Caret Line="2" Column="11"/>
       </Position26>
       <Position27>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="31" Column="14" TopLine="10"/>
+        <Caret Line="39" Column="38" TopLine="28"/>
       </Position27>
       <Position28>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="51" Column="25" TopLine="28"/>
+        <Caret Line="40" Column="48" TopLine="28"/>
       </Position28>
       <Position29>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="6" Column="41"/>
+        <Caret Line="38" Column="16" TopLine="28"/>
       </Position29>
       <Position30>
         <Filename Value="simplebarcode.lpr"/>
-        <Caret Line="4" Column="18"/>
+        <Caret Line="40" Column="22" TopLine="28"/>
       </Position30>
     </JumpHistory>
   </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="2">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="simplebarcode.lpr"/>
+        <Line Value="59"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="simplebarcode.lpr"/>
+        <Line Value="46"/>
+      </Item2>
+    </BreakPoints>
+  </Debugging>
 </CONFIG>
